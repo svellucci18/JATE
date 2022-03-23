@@ -20,7 +20,7 @@ module.exports = () => {
     plugins: [
       new HtmlWebpackPlugin({
         template: './index.html',
-        title: 'Webpack Plugin', // TODO: change this?
+        title: 'JATE',
       }),
       new MiniCssExtractPlugin(),
       new InjectManifest({
